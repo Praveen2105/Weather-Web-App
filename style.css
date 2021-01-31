@@ -1,0 +1,135 @@
+.searchcity {
+    align-items: center;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.nbar {
+    background: rgb(10, 64, 214);
+    height: 15%;
+    padding: 5px;
+    margin: 0;
+    align-content: center;
+    background-attachment: fixed;
+}
+
+#lg {
+    text-decoration: none;
+    margin: 5px; ;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}    
+
+#lgname {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}        
+
+.searchbox {
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(255,255,255,0.95);
+    background-attachment: fixed;
+    padding: 15px;
+    width: 50vw;
+    height: 50%;
+    margin-top: 75px;
+    box-shadow: 5px 5px;
+    font-weight: bold;
+}
+
+.city {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.date {
+    padding-bottom: 85px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.temp {
+    padding: 15px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.weather {
+    padding: 15px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.humidity {
+    padding: 15px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.windspeed {
+    padding: 15px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pressure {
+    padding: 15px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+body {
+    background-image: url('Images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 800; 
+    font-size: 15px;
+}
+
+:-moz-placeholder {
+    font-weight: 800; 
+    font-size: 15px;
+}
+
+::-moz-placeholder {
+    font-weight: 800; 
+    font-size: 15px;
+}
+
+:-ms-input-placeholder {
+    font-weight: 800; 
+    font-size: 15px;
+}
